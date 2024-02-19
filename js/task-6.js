@@ -14,8 +14,8 @@ function createBoxes(amount) {
     let containerSize = 30 + i * 10;
     container.insertAdjacentHTML(
       "beforeend", `<div style='width: ${containerSize}px; height: ${containerSize}px; background-color: ${getRandomHexColor()};'></div>`);
-      input.value = "";
   }
+  input.value = "";
 }
 
 create.addEventListener("click", () => {
